@@ -8,8 +8,11 @@ puts "You are going on a trip to #{stay}."
 # Do the same thing with `eats` and one last time with `nights`, capturing their text input and storing them to the respective local variable
 puts "What food do you like to eat?"
 eats = gets.strip
-puts "#{eats} sounds delicious"
+puts "That sounds delicious!"
 puts "How many nights will you stay for?"
 nights = gets.strip
-puts "You will be going on a trip to #{stay}, you will be eating #{eats} and you will be staying for #{nights} nights"
+puts "How many people will be going?"
+people = gets.strip
+puts "Your trip is planned! You will be going on a trip to #{stay} for #{nights} nights with #{people} and you will be eating #{eats}."
+
 # Lastly, puts it all back by interpolating these values in a string
