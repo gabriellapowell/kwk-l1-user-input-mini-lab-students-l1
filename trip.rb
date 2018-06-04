@@ -13,6 +13,6 @@ puts "How many nights will you stay for?"
 nights = gets.strip
 puts "How many people will be going?"
 people = gets.strip
-puts "Your trip is planned! You will be going on a trip to #{stay} for #{nights} nights with #{people} and you will be eating #{eats}."
+puts "Your trip is planned! You will be going on a trip to #{stay} for #{nights} nights with #{people} people and you will be eating #{eats}. Have Fun!"
 
 # Lastly, puts it all back by interpolating these values in a string
