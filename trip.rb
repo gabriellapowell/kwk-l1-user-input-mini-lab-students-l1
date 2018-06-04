@@ -8,7 +8,7 @@ puts "You are going on a trip to #{stay}."
 # Do the same thing with `eats` and one last time with `nights`, capturing their text input and storing them to the respective local variable
 puts "What food do you like to eat?"
 eats = gets.strip
-puts "I love #{eats}"
+puts "#{eats} sounds delicious"
 puts "How many nights will you stay for?"
 nights = gets.strip
 puts "You will be going on a trip to #{stay}, you will be eating #{eats} and you will be staying for #{nights} nights"
